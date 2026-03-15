@@ -1,0 +1,41 @@
+.container {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.section {
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.sectionTitle {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-xs);
+}
+
+.sectionContent {
+  font-size: var(--font-size-base);
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.row {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.row .section {
+  flex: 1;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: var(--color-text-secondary);
+  padding: var(--space-xl);
+  font-size: var(--font-size-base);
+}

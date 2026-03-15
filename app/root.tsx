@@ -6,8 +6,11 @@ import {
   ScrollRestoration,
   type LinksFunction,
 } from "react-router";
+import globalStyles from "./styles/global.css?url";
 
-export const links: LinksFunction = () => [];
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: globalStyles },
+];
 
 export default function Root() {
   return (
@@ -19,7 +22,9 @@ export default function Root() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <div className="app-container">
+          <Outlet />
+        </div>
         <ScrollRestoration />
         <Scripts />
       </body>

@@ -1,0 +1,51 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-sm) var(--space-xs);
+  min-height: 48px;
+  border-radius: var(--radius-md);
+  transition: background-color 0.15s;
+  gap: 2px;
+}
+
+.day:active {
+  background-color: var(--color-today-bg);
+}
+
+.otherMonth {
+  opacity: 0.35;
+}
+
+.today {
+  background-color: var(--color-today-bg);
+  font-weight: 700;
+}
+
+.dateNumber {
+  font-size: var(--font-size-sm);
+  line-height: 1;
+}
+
+.sunday {
+  color: var(--color-sunday);
+}
+
+.saturday {
+  color: var(--color-saturday);
+}
+
+.statusDot {
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+}
+
+.submitted {
+  background-color: var(--color-submitted);
+}
+
+.hasReport {
+  background-color: var(--color-has-report);
+}

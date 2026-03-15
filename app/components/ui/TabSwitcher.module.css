@@ -1,0 +1,27 @@
+.tabs {
+  display: flex;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.tab {
+  flex: 1;
+  padding: var(--space-md);
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  min-height: 48px;
+  transition: color 0.2s, border-color 0.2s;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab:active {
+  background-color: var(--color-bg);
+}
+
+.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+  font-weight: 600;
+}

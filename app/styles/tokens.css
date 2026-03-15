@@ -1,0 +1,47 @@
+:root {
+  /* Colors */
+  --color-primary: #4caf50;
+  --color-primary-light: #81c784;
+  --color-primary-dark: #388e3c;
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-text: #333333;
+  --color-text-secondary: #757575;
+  --color-border: #e0e0e0;
+
+  /* Status colors */
+  --color-submitted: #4caf50;
+  --color-has-report: #2196f3;
+  --color-none: transparent;
+
+  /* Calendar */
+  --color-today-bg: #e8f5e9;
+  --color-other-month: #bdbdbd;
+  --color-sunday: #e57373;
+  --color-saturday: #64b5f6;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Typography */
+  --font-body: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
