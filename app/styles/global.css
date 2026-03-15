@@ -54,7 +54,8 @@ select {
 .page-header {
   display: flex;
   align-items: center;
-  padding: var(--space-md);
+  padding: 0 var(--space-md);
+  height: 56px;
   background-color: var(--color-primary);
   color: white;
   position: sticky;
@@ -71,11 +72,11 @@ select {
 
 .back-button {
   color: white;
-  padding: var(--space-sm);
   min-width: 44px;
   min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--font-size-lg);
+  font-size: 2rem;
+  font-weight: 300;
 }
